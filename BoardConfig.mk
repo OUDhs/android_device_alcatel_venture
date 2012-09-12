@@ -19,8 +19,10 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+#TARGET_PROVIDES_INIT := true
+TARGET_RECOVERY_INITRC := device/alcatel/venture/ramdisk/recovery/recovery.rc
 TARGET_PREBUILT_KERNEL := device/alcatel/venture/kernel
 
-#BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 #BOARD_HAS_LARGE_FILESYSTEM := true
