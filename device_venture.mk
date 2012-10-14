@@ -14,6 +14,13 @@ else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
 
+PRODUCT_COPY_FILES := \
+	device/alcatel/venture/init.qcom.sh:root/init.qcom.sh \
+	device/alcatel/venture/recovery.rc:root/recovery.rc \
+	device/alcatel/venture/initlogo.rle:root/initlogo.rle \
+	device/alcatel/venture/ueventd.rc:root/ueventd.rc \
+	device/alcatel/venture/recovery/root/init:recovery/root/init
+	
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
