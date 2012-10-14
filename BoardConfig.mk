@@ -20,7 +20,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x105c0000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"font_7x16.h\"
-TARGET_RECOVERY_INITRC := device/alcatel/venture/ramdisk/recovery/recovery.rc
+TARGET_RECOVERY_INITRC := device/alcatel/venture/recovery.rc
 TARGET_PREBUILT_KERNEL := device/alcatel/venture/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
